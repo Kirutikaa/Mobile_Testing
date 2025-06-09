@@ -1,3 +1,5 @@
+package com.kirutikaa.mobiletesting;
+
 import io.appium.java_client.AppiumBy;
 import org.testng.annotations.Test;
 
