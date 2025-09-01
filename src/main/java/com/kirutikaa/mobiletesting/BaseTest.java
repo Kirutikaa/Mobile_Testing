@@ -24,11 +24,12 @@ public class BaseTest {
         options = new UiAutomator2Options();
         options.setDeviceName("Kiru_Mobile");
 
-        options.setApp("C:////Users//Workspace//myFirstProject//MobileTesting//MobileTesting//src//test//resources//ApiDemos-debug.apk");
+        options.setApp("C:////Users//Workspace//Kirutikaa//Mobile_Testing//src//test//resources//ApiDemos-debug.apk");
         driver = new AndroidDriver(new URL("http://127.0.0.1:4723"), options);
     }
     @AfterClass
     public void EndTest(){
-        driver.quit();
+
+        //driver.quit();
     }
 }
