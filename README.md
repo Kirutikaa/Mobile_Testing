@@ -20,6 +20,8 @@ After installing android studio create a new project give some time to configura
 please do install the **node**,and set up the home path in the environment variable or else the appium will not support to execute.  
 * To start the **Appium server** use this **npm install appium** command on the command prompt.
 * To install appium global level in your system use **npm install -g appium**
+## Run the test.
+* Run the TestRunner class.
 
 
 
